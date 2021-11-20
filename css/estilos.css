@@ -153,3 +153,23 @@ main form button {
     border-style: none;
     transition: all .3s;
 }
+
+main img {
+    height: 70vh;
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--white-text);
+
+    /* Alinear los elemntos en horizontal */
+    display: flex;
+
+    /* Alinea los elementos del contenedor en eje horizontal */
+    justify-content: center;
+
+    /* Alinea los elementos dentro del bloque que lo contiene */
+    align-items: center;
+    
+    height: 10vh;
+}
