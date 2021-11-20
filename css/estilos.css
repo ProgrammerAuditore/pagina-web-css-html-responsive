@@ -20,3 +20,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+nav {
+    background-color: var(--primary);
+    height: 10vh;
+    width: 100%;
+    
+    /* Alinear los elemntos en horizontal */
+    display: flex; 
+
+    /* Agregar espacio entre ellos */
+    justify-content: space-around; 
+
+    /* Alinear los elementos al centro en forma vertical */
+}
+
