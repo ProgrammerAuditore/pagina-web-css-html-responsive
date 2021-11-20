@@ -33,6 +33,7 @@ nav {
     justify-content: space-around; 
 
     /* Alinear los elementos al centro en forma vertical */
+    justify-items: center;
 }
 
 header h1 {
@@ -80,4 +81,35 @@ nav ul li a:hover {
 
 #chbox {
     display: none;
+}
+
+/* Estilos en la sección principal */
+
+main {
+    padding-top: 1rem;
+
+    /* Alinear los elemntos en horizontal */
+    display: flex;
+
+
+    /* Alinea los elementos del contenedor en eje horizontal */
+    justify-content: center;
+
+    /* Alinea los elementos dentro del bloque que lo contiene */
+    align-items: center;
+
+    height: 80vh;
+}
+
+main h1 {
+    font-size: 1.7rem;
+    color: var(--black-text);
+    text-align: center;
+    margin: 1rem;
+}
+
+main p {
+    color: var(--black-text);
+    text-align: center;
+    margin: 1rem 0;
 }
