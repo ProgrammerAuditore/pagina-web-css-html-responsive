@@ -1,7 +1,7 @@
 /* Variables de estilos de CSS */
 
 :root{
-    --primary: #42b983;
+    --primary: #414141;
     --secondary: #2e4469;
     --background: #35495e;
     --black-text: rgb(61,61,61);
@@ -32,14 +32,13 @@ nav {
     /* Agregar espacio entre ellos */
     justify-content: space-around; 
 
-    /* Alinear los elementos al centro en forma vertical */
-    justify-items: center;
+    /* Alinea los elemntos dentro del bloque que lo contiene */
+    align-items: center;
 }
 
 header h1 {
     color: var(--white-text);
     letter-spacing: .7em;
-    font-size: 2rem;
 }
 
 nav ul {
