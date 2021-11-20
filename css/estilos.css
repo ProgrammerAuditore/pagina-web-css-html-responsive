@@ -91,7 +91,6 @@ main {
     /* Alinear los elemntos en horizontal */
     display: flex;
 
-
     /* Alinea los elementos del contenedor en eje horizontal */
     justify-content: center;
 
@@ -112,4 +111,45 @@ main p {
     color: var(--black-text);
     text-align: center;
     margin: 1rem 0;
+}
+
+main form {
+    /* Alinear los elemntos en horizontal */
+    display: flex;
+
+    /* Alinea los elementos del contenedor en eje horizontal */
+    justify-content: center;
+}
+
+main form button {
+    margin: 0 .5rem;
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.primary-btn {
+    background-color: var(--primary);
+    color: var(--white-text);
+    border-style: none;
+}
+
+.outline-btn{
+    background-color: var(--white-text);
+    color: var(--primary);
+    border: solid .1rem var(--primary);    
+}
+
+.primary-btn:hover {
+    background-color: var(--white-text);
+    color: var(--primary);
+    border: solid .1rem var(--primary);
+    transition: all .3s;
+}
+
+.outline-btn:hover {
+    background-color: var(--primary);
+    color: var(--white-text);
+    border-style: none;
+    transition: all .3s;
 }
