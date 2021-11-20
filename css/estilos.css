@@ -35,3 +35,29 @@ nav {
     /* Alinear los elementos al centro en forma vertical */
 }
 
+header h1 {
+    color: var(--white-text);
+    letter-spacing: .7em;
+    font-size: 2rem;
+}
+
+nav ul {
+    /* Alinear los elemntos en horizontal */
+    display: flex;
+}
+
+nav ul li {
+    border-right: solid .1rem rgba(61, 61, 61, 0.41);
+}
+
+/* Seleccionar el ultimo elemento li */
+nav ul li:last-child {
+    border-right: none;    
+}
+
+nav ul li a {
+    color: var(--white-text);
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+    text-transform: uppercase;
+}
