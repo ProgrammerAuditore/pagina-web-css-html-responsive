@@ -170,6 +170,65 @@ footer {
 
     /* Alinea los elementos dentro del bloque que lo contiene */
     align-items: center;
-    
+
     height: 10vh;
+}
+
+@media(max-width: 1020px) {
+
+    nav{
+        justify-content: flex-start;
+    }
+
+    .drawer {
+        display: block;
+    }
+
+    nav h1 {
+        margin-left: 1rem;
+    }
+
+    ul {
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: var(--background);
+        top: 10vh;
+        left: -100%;
+        text-align: left;
+        transition: all .5s;
+
+        /* Alinear los elemntos en horizontal */
+        display: flex;
+
+        /* Alinear los elemntos en vertical en una sola columnas */
+        /* Se alinea un elemento arriba el otro */
+        flex-direction: column;
+
+        align-content: stretch;
+    }
+
+    nav ul li {
+        padding: 1rem;
+
+        /* Alinear los elemntos en horizontal */
+        display: flex;
+
+        /* Alinear los elemntos en vertical en una sola columnas */
+        /* Se alinea un elemento arriba el otro */
+        flex-direction: column;
+
+        padding-left: 2rem;
+
+        border-bottom: solid .1rem rgba(201, 196, 196, 0.4);
+    }
+
+    #chbox:checked ~ .menu-box { 
+        left: 0;
+    }
+
+    .image {
+        display: none;
+    }
+
 }
